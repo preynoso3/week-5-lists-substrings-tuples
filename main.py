@@ -16,9 +16,18 @@ print(newSentence.rindex("practice"))
 ###############################################Review############################################################
 #####################################challenge 1################################################################
 # Create a list with 5 elements, inside the variable my_list. You can include strings, booleans, numbers, etc.
-my_list = ["bay","ddaa", 34, 56]
-
-
+my_list = ["bay","ddaa", 34, 56, 78, 89, 102]
+# append will add to the end of the list
+my_list.append("jewelry")
+print(my_list)
+# pop removes from the end
+my_list.pop()
+print(my_list)
+# remove removes and item at a certain index
+my_list.remove("ddaa")
+print(my_list)
+my_list.insert(3, "bobba bobba")
+print(my_list)
 # Add the element "motorcycle" to the following list of means of transportation:
 
 # transportation_means = ["plane", "car", "ship", "bicycle"]
